@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(34, 89, 98);
+    color: white;
+}
+header h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+form {
+    background-color: white;
+    color: black;
+    padding: 100px;
+    border-radius: 17px;
+    box-shadow: 0 0 15px blue ;
+}
+form div input {
+    background-color: rgba(34, 89, 98, 0.5);
+    padding: 8px;
+    border-radius: 12px;
+}
+.div1 input {
+    background-color: slateblue;
+    color: white;
+    padding: 8px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: ease 2s;
+    transition: 1s;
+    box-shadow: 0 0 7px blue;
+    margin-left: 15px;
+    margin-top:10px ;
+}
+.div1 input:hover {
+    box-shadow: 0 0 15px blue;
+}
